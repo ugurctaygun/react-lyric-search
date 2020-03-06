@@ -1,13 +1,19 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class Track extends Component {
-    render() {
-        return (
-            <div>
-                <h1>Singular Track</h1>
+const Track = (props) => {
+    const { track } = props;
+
+   return (
+        <div className="col-md-6">
+            <div className="card mb-4 shadow-sm">
+                <div className="card-body">
+                    <div className="card-body">
+                        <h5>{track.artist_name}</h5>
+                    </div>
+                </div>
             </div>
-        )
-    }
+        </div>
+        )   
 }
 
 export default Track;
