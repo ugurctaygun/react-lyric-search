@@ -4,7 +4,6 @@ import Tracks from '../tracks/Tracks'
 const Index = () => {
     return (
         <React.Fragment>
-            dasdasdasd
             <Tracks />
         </React.Fragment>
     );
