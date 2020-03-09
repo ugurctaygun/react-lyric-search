@@ -34,6 +34,13 @@ axios.get('api.url')
 .then( res => {})
 .catch( err => {})
 
+MISC.
+
+Formatting date,
+JS > toLocaleString();
+Or use Moment.js library
+npm i moment react-moment
+
 MAP
 
 ES6 map method is used to copy an array and loop for the items it contains and render then in a component
